@@ -11,10 +11,10 @@
       </thead>
       <tbody>
         <tr *ngFor="let c of series">
-          <td>
+          <td class="id">
             <dd>{{c.id}}</dd>
           </td>
-          <td>
+          <td class="name">
             <dd>{{c.name}}</dd>
           </td>
           <td>
@@ -26,5 +26,6 @@
       </tr>
       </tbody>
     </table>
+    <p>Seasons average: {{ getAverageSeasons()}}</p>
   </div>
 </div>

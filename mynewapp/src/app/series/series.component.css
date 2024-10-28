@@ -1,0 +1,15 @@
+.h4 {
+    font-weight: bold;
+    }
+
+.name {
+    color: rgb(1, 106, 254);
+    }
+
+.id {
+    font-weight: bold;
+}
+
+tbody td {
+    background-color: #f0f0f0; 
+    }
